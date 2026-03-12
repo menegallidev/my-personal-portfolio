@@ -45,15 +45,15 @@ function SkillsSection({
                   variant="secondary"
                   className="border border-white/10 bg-white/10 text-white"
                 >
-                  Skill Matrix
+                  Skill Set
                 </Badge>
                 <p className="max-w-md font-serif text-4xl leading-tight tracking-tight">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Uma base sólida de tecnologia, produto e comunicação.
                 </p>
                 <p className="max-w-md text-sm leading-7 text-primary-foreground/78">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante venenatis dapibus posuere velit
-                  aliquet.
+                  Minhas habilidades vão além do código. Envolvem construção de interfaces,
+                  desenvolvimento full stack, organização de projetos, entendimento de
+                  negócio e comunicação clara para entregar soluções realmente úteis.
                 </p>
               </div>
 
@@ -63,7 +63,7 @@ function SkillsSection({
                     {totalSkills}
                   </p>
                   <p className="mt-2 text-[0.65rem] tracking-[0.32em] text-primary-foreground/72 uppercase">
-                    Listed Skills
+                    Skills listadas
                   </p>
                 </div>
                 <div>
@@ -71,13 +71,13 @@ function SkillsSection({
                     {groups.length}
                   </p>
                   <p className="mt-2 text-[0.65rem] tracking-[0.32em] text-primary-foreground/72 uppercase">
-                    Groups
+                    Categorias
                   </p>
                 </div>
                 <div>
                   <p className="font-serif text-5xl leading-none">01</p>
                   <p className="mt-2 text-[0.65rem] tracking-[0.32em] text-primary-foreground/72 uppercase">
-                    Layout
+                    Objetivo
                   </p>
                 </div>
               </div>

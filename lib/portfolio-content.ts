@@ -219,7 +219,7 @@ export const projects: Project[] = [
 ]
 
 export const skillsIntro = {
-  eyebrow: "Skills",
+  eyebrow: "Habilidades",
   title: "Tecnologias e habilidades que utilizo para criar soluções completas.",
   description:
     "Reuni aqui as principais tecnologias com as quais trabalho, além de habilidades que fazem parte da minha forma de desenvolver: comunicação, visão de negócio, organização e foco em entregar soluções bem construídas.",
