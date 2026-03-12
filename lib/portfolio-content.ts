@@ -158,59 +158,59 @@ export const projectsIntro = {
 
 export const projects: Project[] = [
   {
-    title: "Placeholder Project One",
+    title: "Sistema Adminstrativo Inova Grelhas",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis.",
-    imageSrc: "/placeholders/project-editorial.svg",
-    imageAlt: "Editorial style placeholder project cover",
+      "Um sistema feito para um clinte, atendendo suas necessidades de controle de serviços e estoque de produto. Além de manter um registro de clientes e empresas ativas.",
+    imageSrc: "/inova-system.png",
+    imageAlt: "Foto do sistema da Inova Grelhas",
     featured: true,
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn", "Prisma", "Postgres", "Neon", "Vercel", "Responsividade", "UI", "UX"],
     links: [
       {
-        label: "Live Preview",
-        href: "https://example.com",
+        label: "Visitar",
+        href: "https://lucas-project-git-staging-rafael-menegallis-projects-5e626be0.vercel.app/login",
         external: true,
       },
       {
-        label: "Repository",
-        href: "https://github.com/example/project-one",
+        label: "Repositório",
+        href: "https://github.com/menegallidev/lucas_project",
         external: true,
         variant: "outline",
       },
     ],
   },
   {
-    title: "Placeholder Project Two",
+    title: "Demonstração de Produto",
     description:
-      "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum.",
-    imageSrc: "/placeholders/project-frame.svg",
-    imageAlt: "Framed placeholder project cover",
-    tech: ["React", "Vite", "CSS"],
+      "Um site desenvolvido para mostrar um livro, é um produto fictício. Porém esse template desenvolvido por mim pode ser usado para diversos outros tipos de produtos.",
+    imageSrc: "/book-landing-page.png",
+    imageAlt: "Foto da Home do site do livro",
+    tech: ["Next.js", "tailwind CSS", "CSS", "TypeScript"],
     links: [
       {
-        label: "Case Study",
-        href: "https://example.com",
+        label: "Visitar",
+        href: "https://port-book-landing-page.vercel.app/",
         external: true,
         variant: "outline",
       },
     ],
   },
   {
-    title: "Placeholder Project Three",
+    title: "Sistema de Agendamentos",
     description:
-      "Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in.",
-    imageSrc: "/placeholders/project-grid.svg",
-    imageAlt: "Grid placeholder project cover",
-    tech: ["Node.js", "Express", "UI"],
+      "Um sistema de agendamentos, pensado para uma barbearia, com possíbilidade de criar uma conta, fazer um agendamento e acompanhar o status e histório de seus agendamentos.",
+    imageSrc: "/barber-appointments.png",
+    imageAlt: "Imagem do sistema de agendamentos",
+    tech: ["Next.js", "CSS", "UI", "UX", "TypeScript", "Prisma", "Postgres", "Neon", "Tailwind CSS"],
     links: [
       {
-        label: "Preview",
-        href: "https://example.com",
+        label: "Visitar",
+        href: "https://port-appointments.vercel.app/",
         external: true,
       },
       {
-        label: "Source",
-        href: "https://github.com/example/project-three",
+        label: "Repositório",
+        href: "https://github.com/menegallidev/port-appointments",
         external: true,
         variant: "ghost",
       },
