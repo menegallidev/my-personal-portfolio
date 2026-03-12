@@ -37,14 +37,14 @@ function ContactSection({
 
         <div className="grid gap-6 xl:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)]">
           <Card className="border-border/70 bg-primary text-primary-foreground shadow-[0_36px_90px_-60px_rgba(0,0,0,0.95)]">
-            <CardHeader className="gap-4 p-8">
+            <CardHeader className="gap-4 p-6 sm:p-8">
               <Badge
                 variant="secondary"
                 className="w-fit border border-white/10 bg-white/10 text-white"
               >
                 Email
               </Badge>
-              <CardTitle className="max-w-lg font-serif text-4xl leading-tight tracking-tight sm:text-5xl">
+              <CardTitle className="max-w-lg font-serif text-3xl leading-tight tracking-tight break-all sm:text-5xl sm:break-normal">
                 {content.email}
               </CardTitle>
               <CardDescription className="max-w-md text-primary-foreground/75">
@@ -52,12 +52,12 @@ function ContactSection({
               </CardDescription>
             </CardHeader>
 
-            <div className="space-y-8 px-8 pb-8">
+            <div className="space-y-8 px-6 pb-6 sm:px-8 sm:pb-8">
               <Button
                 asChild
                 variant="secondary"
                 size="lg"
-                className="h-11 rounded-full border border-white/10 bg-white text-black hover:bg-white/90"
+                className="h-auto w-full max-w-full justify-start rounded-full border border-white/10 bg-white px-4 py-3 text-left break-all whitespace-normal text-black hover:bg-white/90 sm:h-11 sm:w-fit sm:justify-center sm:break-normal sm:whitespace-nowrap"
               >
                 <a href={`mailto:${content.email}`}>
                   <Mail />
@@ -108,11 +108,13 @@ function ContactSection({
                         </div>
                         <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                       </div>
-                      <div className="space-y-2 wrap-break-word">
+                      <div className="min-w-0 space-y-2 break-words">
                         <CardTitle className="font-serif text-2xl">
                           {item.label}
                         </CardTitle>
-                        <CardDescription>{item.value}</CardDescription>
+                        <CardDescription className="break-words">
+                          {item.value}
+                        </CardDescription>
                       </div>
                     </CardHeader>
                   </Link>
